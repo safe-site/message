@@ -2,6 +2,7 @@ const cardElement = document.getElementById('card');
 const messageElement = document.getElementById('message');
 const titleElement = document.getElementById('title');
 const shareButton = document.getElementById('share-button');
+const infoButton = document.getElementById('info-button');
 
 // generate a random token and store it in local storage
 const generateToken = () => {
@@ -25,6 +26,13 @@ shareButton.addEventListener('click', () => {
     prompt('Copy this URL and share it with others:', shareUrl);
   }
 });
+
+
+// add click event listener to info button
+infoButton.addEventListener('click', () => {
+  alert('New Tool by Shashi - One-Time Message Sender! Kisi ko message bhejo, sirf ek baar padhega aur phir khud-ba-khud mit jaayega. Perfect sensitive information aur private conversations ke liye. Try karo aur confidential communication ka mazaa lo!');
+});
+
 
 // check if a message, title, and token are present in the URL parameters
 const urlParams = new URLSearchParams(window.location.search);
