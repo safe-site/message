@@ -30,7 +30,7 @@ shareButton.addEventListener('click', () => {
 
 // add click event listener to info button
 infoButton.addEventListener('click', () => {
-  alert('New Tool by Shashi - One-Time Message Sender! Kisi ko message bhejo, sirf ek baar padhega aur phir khud-ba-khud mit jaayega. Perfect sensitive information aur private conversations ke liye. Try karo aur confidential communication ka mazaa lo!');
+  alert('Introducing the latest tool by Shashi: the One-Time Message Sender. Iss tool ki madad se aap kisi ko message bhej sakte ho, jo sirf ek baar dikhayi dega, phir hamesha ke liye delete ho jaayega. Yeh tool sensitive information aur private conversations ke liye accha option hai.');
 });
 
 
