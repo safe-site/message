@@ -77,24 +77,3 @@ body {
 		}
 		
 		
-		.powered-by {
-		position: absolute;
-		bottom: 10px;
-		left: 0;
-		right: 0;
-		width: 100%;
-		font-size: 14px;
-		color: #fff;
-		text-align: center;
-		}
-		
-		
-		.powered-by a {
-		color: #21c4ff;
-		text-decoration: none;
-		}
-		
-		.powered-by a:hover {
-		color: red;
-		}
-		
