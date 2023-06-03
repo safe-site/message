@@ -1,0 +1,100 @@
+body {
+			background-color: #111;
+		}
+
+		.card {
+   width: 90%;
+		 max-width: 400px;
+			background-color: #222;
+			color: #fff;
+			padding: 10px;
+			border-radius: 10px;
+			box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+			text-align: center;
+			position: absolute;
+			top: 30%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			animation: fadeIn 1s ease-out;
+		}
+
+		@keyframes fadeIn {
+			from {
+				opacity: 0;
+			}
+			to {
+				opacity: 1;
+			}
+		}
+
+		h1 {
+			font-size: 30px;
+			margin-bottom: 10px;
+			margin-top: 10px;
+			color: #21c4ff;
+		}
+
+		p {
+			font-size: 22px;
+			margin-bottom: 40px;
+		}
+
+		button {
+            float: right;
+			background-color: grey;
+			background-color: #4CAF50;
+			color: white;
+			padding: 0px;
+			border: none;
+			border-radius: 50%;
+			cursor: pointer;
+			margin-right: 0px;
+			width: 40px;
+			height: 40px;
+			background-image: url(https://replicate.delivery/pbxt/rNGN1MKiUaLxMZ85MicTgNwzW0YJj44LJmhf8EYqtqc1IxdIA/output.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+			border: none;
+			outline: none;
+			transition: transform 0.2s ease-out;
+		}
+		
+
+		button:hover {
+			transform: translatex(5px);
+		}
+
+.info-button {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		font-size: 24px;
+		background: none;
+		border: none;
+		color: red;
+		cursor: pointer;
+		float: right;
+		}
+		
+		
+		.powered-by {
+		position: absolute;
+		bottom: 10px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		font-size: 14px;
+		color: #fff;
+		text-align: center;
+		}
+		
+		
+		.powered-by a {
+		color: #21c4ff;
+		text-decoration: none;
+		}
+		
+		.powered-by a:hover {
+		color: red;
+		}
+		
